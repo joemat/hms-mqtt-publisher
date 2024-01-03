@@ -25,7 +25,7 @@ struct Config {
     simple_mqtt: Option<MqttConfig>,
 }
 
-static REQUEST_DELAY: u64 = 30_500;
+static REQUEST_DELAY: u64 = 60_500;
 
 fn main() {
     logging::init_logger();
